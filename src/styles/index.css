@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kufam:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 :root {
   --primary-color: #E53939;
   --secundary-color: #ff4d4d;
   --b-color: #000;
   --w-color: #fff;
+  --g-color: #5E5E5E
 }
 
 * {
