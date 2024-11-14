@@ -1,0 +1,77 @@
+/* Seção principal */
+.personal-interests-section {
+    padding: 7rem 0;
+    color: var(--w-color);
+  }
+  
+  /* Container para o conteúdo */
+  .personal-interests-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* Player de música */
+  .music-player {
+    width: 40%;
+    max-width: 450px;
+    border-radius: 10px;
+    border: 3px solid var(--primary-color);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .player-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    clip-path: inset(0 5px 0 0);
+  }
+  
+  /* Texto descritivo */
+  .interests-info {
+    max-width: 60%;
+  }
+  
+  .personal-interests-title{
+    display: flex;
+    align-items: baseline;
+    gap: 05px;
+  }
+  
+  .interests-info h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: var(--w-color);
+  }
+
+  .personal-interests-title img{
+    width: 70px;
+    padding-left: 20px;
+  }
+  
+  .interests-info p {
+    margin: 15px 0 30px 0;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  
+  /* Onda visual */
+  .wave-container {
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .wave {
+    width: 100%;
+    height: auto;
+  }
+
+  
