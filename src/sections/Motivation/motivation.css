@@ -1,0 +1,112 @@
+.motivation-section {
+    padding: 7rem 0;
+    color: var(--w-color);
+}
+
+.motivation-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+  
+.motivation-title{
+    display: flex;
+    align-items: baseline;
+    gap: 05px;
+}
+
+.motivation-info h2 {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: var(--w-color);
+}
+
+.motivation-title img{
+    width: 70px;
+    padding-left: 20px;
+}
+
+.motivation-info p {
+    margin: 15px 0 30px 0;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.motivation-image{
+    position: relative;
+    z-index: 5;
+    max-height: 600px;
+}
+
+.motivation-image img {
+    border-radius: 10px;
+    z-index: 10;
+    position: relative;
+}
+
+.motivation-image::after{
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    z-index: 5;
+    border: 3px solid var(--primary-color);
+    box-shadow: 0 0 10px var(--primary-color), inset 0 0 10px var(--primary-color);
+}
+
+@media (max-width: 1280px) {
+    .motivation-container{
+      padding: 30px;
+    }
+    .motivation-title h2{
+      font-size: 3rem;
+    }
+  }
+
+  
+@media (max-width: 1000px) {
+    .motivation-container{
+      flex-direction: column;
+    }
+    .motivation-image img{
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      object-position: top center;
+    }
+    .motivation-image::after{
+        display: none;
+    }
+  }
+
+
+@media (max-width: 640px) {
+    .motivation-section{
+        padding: 0;
+    }
+    .motivation-title h2{
+        font-size: 2.5rem;
+    }
+      .motivation-title img{
+        width: 50px;
+        padding-left: 10px;
+    }
+  }
+
+@media (max-width: 350px) {
+    .motivation-title h2{
+        font-size: 2.2rem;
+    }
+      .motivation-title img{
+        width: 45px;
+        padding-left: 10px;
+    }
+  }
