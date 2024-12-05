@@ -21,11 +21,15 @@ function Menu() {
       <img src={logoCoders} alt="Logo" className="logo" />
 
       <nav className={`nav-links ${isOpen ? 'active' : ''}`} onClick={handleNavClick}>
-        <a href="#home">Home</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#gostos">Gostos Pessoais</a>
-        <a href="#motivacoes">Motivações</a>
-        <button className="btn-download">Download CV</button>
+        <a href="#">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#interests">Gostos Pessoais</a>
+        <a href="#motivation">Motivações</a>
+        <a href="../../../public/pdf/Curriculo.pdf" download="Curriculo.pdf" >
+          <button className="btn-download">
+            Download CV
+          </button>
+        </a>
       </nav>
 
       <div className="menu" onClick={toggleMenu}>

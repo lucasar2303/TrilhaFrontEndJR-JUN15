@@ -25,7 +25,7 @@ function Hero() {
           <img className='hero-image' src={photo}></img>
         </div>
       </div>
-      <img src={arrow} className='hero-arrow'/>
+      <a href='#about'><img src={arrow} className='hero-arrow'/></a>
     </section>
   );
 }

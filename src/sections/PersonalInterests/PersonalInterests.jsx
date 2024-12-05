@@ -5,7 +5,7 @@ import MusicPlayer from '../../components/MusicPlayer/MusicPlayer';
 
 function PersonalInterests() {
   return (
-    <section id="personal-interests" className="personal-interests-section">
+    <section id="interests" className="personal-interests-section">
       <div className="personal-interests-container">
         <MusicPlayer/>
         <PersonalInfo/>
