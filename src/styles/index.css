@@ -6,7 +6,9 @@
   --secundary-color: #ff4d4d;
   --b-color: #000;
   --w-color: #fff;
-  --g-color: #5E5E5E
+  --g-color: #5E5E5E;
+  --b1-color: #090808;
+  --b2-color: #111111;
 }
 
 * {
@@ -32,4 +34,10 @@ a {
 
 a:hover {
   color: var(--primary-color);
+}
+
+.footer{
+  text-align: center;
+  padding-bottom: 30px;
+  color: var(--w-color);
 }

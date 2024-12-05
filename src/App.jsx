@@ -3,6 +3,7 @@ import Hero from './sections/Hero/Hero.jsx'
 import About from './sections/About/About.jsx'
 import PersonalInterests from './sections/PersonalInterests/PersonalInterests.jsx'
 import Motivation from './sections/Motivation/Motivation.jsx'
+import Form from './sections/Form/Form.jsx'
 
 function App() {
 
@@ -13,6 +14,8 @@ function App() {
       <About />
       <PersonalInterests />
       <Motivation />
+      <Form/>
+      <div className="footer">Desenvolvido por por <strong>Lucas Anastácio</strong></div>
     </>
   )
 }

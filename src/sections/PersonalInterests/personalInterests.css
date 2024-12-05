@@ -107,3 +107,13 @@
       width: 100%;
     }
   }
+
+  @media (max-width: 480px) { 
+    .personal-interests-title h2{
+      font-size: 2.2rem;
+    }
+    .personal-interests-title img{
+      width: 50px;
+      padding-left: 10px;
+    }
+  }
