@@ -25,6 +25,7 @@ function Menu() {
         <a href="#about">Sobre</a>
         <a href="#interests">Gostos Pessoais</a>
         <a href="#motivation">Motivações</a>
+        <a href="#form">Contato</a>
         <a href="/pdf/Curriculo.pdf" download="Curriculo.pdf">
           <button className="btn-download">
             Download CV
