@@ -25,11 +25,12 @@ function Menu() {
         <a href="#about">Sobre</a>
         <a href="#interests">Gostos Pessoais</a>
         <a href="#motivation">Motivações</a>
-        <a href="../../../public/pdf/Curriculo.pdf" download="Curriculo.pdf" >
+        <a href="/pdf/Curriculo.pdf" download="Curriculo.pdf">
           <button className="btn-download">
             Download CV
           </button>
         </a>
+
       </nav>
 
       <div className="menu" onClick={toggleMenu}>
