@@ -24,10 +24,10 @@ function Form() {
         setSending(true);
 
         emailjs.sendForm(
-            'service_o40w8pi',
-            'template_n3678ps',
+            import.meta.env.VITE_EMAILJS_SERVICE_ID,
+            import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
             event.target,
-            'MP4ox5DYcaObMOFqw'
+            import.meta.env.VITE_EMAILJS_USER_ID
         ).then((result) => {
             setMessage("Mensagem enviada com sucesso!");
             setSending(false);
